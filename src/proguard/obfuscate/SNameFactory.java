@@ -6,13 +6,8 @@ public class SNameFactory implements NameFactory
 {
  private static final Random RANDOM = new Random();
  private static final char[] CHARS = //{'a', 'b', 'c', 'd', 'e'};
-  /**{'ۘ','ۙ','ۚ','ۛ','۟','۠','ۡ','ۢ','ۤ',
-   'ۥ','ۦ','ۧ','ۨ','۪','۫','۬','ۭ','​'
-  };/**/
-  {0x6d8, 0x6d9, 0x6da, 0x6db, 0x6df, 0x6e0, 0x6e1,
-   0x6e2, 0x6e4, 0x6e5, 0x6e6, 0x6e7, 0x6e8, 0x6ea,
-   0x6eb, 0x6ec, 0x6ed, 0x200b
-  };
+ {'ۖ', 'ۗ', 'ۘ', 'ۙ', 'ۚ', 'ۛ', 'ۜ', '۟', '۠',
+  'ۡ', 'ۢ', 'ۤ', 'ۥ', 'ۦ', 'ۧ', 'ۨ', '۫', '۬'};
  private static final int[] OFFSETS = initOffsets();
  private int index = 0;
  private SNameFactory parent = null;
